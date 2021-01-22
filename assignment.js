@@ -2,7 +2,7 @@
 
 function kilometerToMeter(kiloMeter){
     if(kiloMeter < 0){
-        return "Kiloeter cannot be a negative number, please provide a positive number and try again,Thank you!!";
+        return "Kilometer cannot be a negative number, please provide a positive number and try again,Thank you!!";
     }else{
         var meter = kiloMeter * 1000;
         return meter;
@@ -17,7 +17,7 @@ console.log(converTedMeter);
 
 function budgetCalculator(watch,phone,laptop){
     if(watch < 0 || phone < 0 || laptop < 0){
-        return "You can't by products by taking negative value.Please chose positive value and try again,Thank you!!"
+        return "You can't buy products by taking negative value.Please chose positive value and try again,Thank you!!"
     }else{
         var watchPrice = watch * 50;
         var phonePrice = phone * 100;
@@ -26,7 +26,7 @@ function budgetCalculator(watch,phone,laptop){
         return totalBudget;
     }
 }
-var watch = 0;
+var watch = 2;
 var phone = 2;
 var laptop = 2;
 var totalPrice = budgetCalculator(watch,phone,laptop);
